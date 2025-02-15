@@ -21,13 +21,16 @@ root.render(
     <Page />
 )
 
+function Header() {
+  <header>
+    <img src="react-logo.png" alt="React logo" width="100px"/>
+  </header>
+}
 function Page() {
   return (
     // <> </> inserts Fragment element implicitly
     <>
-      <header>
-        <img src="react-logo.png" alt="React logo" width="100px"/>
-      </header>
+      <Header/>
       <main>
         <h1>React Facts!</h1>
         <ol>
