@@ -22,9 +22,11 @@ root.render(
 )
 
 function Header() {
-  <header>
-    <img src="react-logo.png" alt="React logo" width="100px"/>
-  </header>
+  return (
+    <header>
+      <img src="react-logo.png" alt="React logo" width="100px"/>
+    </header>
+  )
 }
 function Page() {
   return (
