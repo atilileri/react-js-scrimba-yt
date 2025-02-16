@@ -14,13 +14,13 @@ root.render(
 
 function Header() {
   return (
-    <header>
-      <img src="react-logo.png" alt="React logo" width="100px"/>
+    <header className="header">
+      <img className="nav-logo" src="react-logo.png" alt="React logo"/>
       <nav>
         <ul className="nav-list">
-          <li>Pricing</li>
-          <li>About</li>
-          <li>Contact</li>
+          <li className="nav-list-item">Pricing</li>
+          <li className="nav-list-item">About</li>
+          <li className="nav-list-item">Contact</li>
         </ul>
       </nav>
     </header>
