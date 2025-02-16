@@ -17,7 +17,7 @@ function Header() {
     <header>
       <img src="react-logo.png" alt="React logo" width="100px"/>
       <nav>
-        <ul>
+        <ul className="nav-list">
           <li>Pricing</li>
           <li>About</li>
           <li>Contact</li>
