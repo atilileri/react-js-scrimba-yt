@@ -14,7 +14,7 @@ export default function Navbar() {
         <header>
             <nav>
                 <img src="react-logo.png" alt="react-logo" />
-                <span>React Facts!</span>
+                <span>ReactFacts</span>
             </nav>
         </header>
     )
